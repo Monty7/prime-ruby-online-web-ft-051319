@@ -14,5 +14,5 @@ def prime?(num)
         counter = counter + 1
       end
   end
-  #return true
+  return true
 end
