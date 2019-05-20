@@ -5,14 +5,7 @@ def prime?(num)
     return false 
   elsif num == 2 
     return true 
-  else
-      counter = 2 
-      while counter < num
-        if num % counter == 0
-          return false 
-          counter = counter + 1
-        end
-      end
+
   end
   #return true
 end
